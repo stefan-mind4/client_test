@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: stefan-mind4/client_test
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: "pages"
+    label: "Seiten"
+    files:
+      - name: "home"
+        label: "Startseite"
+        file: "src/content/home.json"
+        fields:
+          - { label: "Hero Titel", name: "hero_title", widget: "string" }
+          - { label: "Hero Untertitel", name: "hero_subtitle", widget: "text" }
+          - { label: "CTA Button Text", name: "cta_text", widget: "string" }
