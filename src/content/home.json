@@ -10,9 +10,9 @@
   "sozietaet_bild": "",
   "partner": [
     {
-      "initials": "TH - Test",
+      "initials": "TH",
       "name": "Dr. Thomas Huber",
-      "foto": "/images/hsoa_patrick_swoboda.jpeg",
+      "foto": "",
       "bio": "Langjährige Erfahrung in der Beratung nationaler und internationaler Unternehmen bei Transaktionen.",
       "focus": [
         "M & A",
@@ -23,7 +23,7 @@
     {
       "initials": "PS",
       "name": "Dr. Patrick Swoboda, LL.M.",
-      "foto": "",
+      "foto": "/images/hsoa_patrick_swoboda.jpeg",
       "bio": "Spezialist für komplexe Immobilientransaktionen und die rechtliche Strukturierung von Immobilienprojekten.",
       "focus": [
         "Immobilienrecht",
