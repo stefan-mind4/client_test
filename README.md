@@ -1,43 +1,43 @@
-# Astro Starter Kit: Minimal
+# HSOA Astro CMS Template
 
-```sh
-npm create astro@latest -- --template minimal
+## Struktur
+
+```
+src/
+  content/
+    home.json              ← Alle Inhalte der Hauptseite
+    leistungen/
+      immobilienrecht.json ← Immobilienrecht-Unterseite
+      [weitere].json       ← Weitere Leistungsseiten (im CMS erstellen)
+  pages/
+    index.astro            ← Hauptseite
+    leistungen/[slug].astro ← Dynamische Leistungsseiten
+  layouts/
+    Layout.astro           ← HTML-Grundgerüst
+public/
+  admin/
+    config.yml             ← Decap CMS Konfiguration
+    index.html             ← CMS Interface
+  images/                  ← Hier landen hochgeladene Bilder
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Setup
 
-## 🚀 Project Structure
+1. Diesen Ordner in dein lokales Repo kopieren (Dateien mergen, nicht ersetzen)
+2. `npm run build` testen
+3. Git push → Netlify baut automatisch
 
-Inside of your Astro project, you'll see the following folders and files:
+## Neue Leistungsseite erstellen
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Im CMS unter **Leistungsseiten → Neu** → Slug = URL-Pfad (z.B. `apothekenrecht`)
+→ Seite erscheint dann automatisch unter `/leistungen/apothekenrecht`
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Bilder einfügen
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Alle Felder mit "Bild" in der Bezeichnung öffnen den Bild-Uploader im CMS.
+Bilder werden in `public/images/` gespeichert.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Placeholder-Bilder entfernen
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Alle Bild-Felder sind optional (`required: false`). Wenn kein Bild gesetzt ist,
+wird der Bild-Container einfach nicht gerendert.

@@ -7,13 +7,271 @@ media_folder: public/images
 public_folder: /images
 
 collections:
+
+  # ─── HAUPTSEITE ──────────────────────────────────────────────────
   - name: "pages"
     label: "Seiten"
     files:
+
       - name: "home"
-        label: "Startseite"
+        label: "Startseite (Hauptseite)"
         file: "src/content/home.json"
         fields:
-          - { label: "Hero Titel", name: "hero_title", widget: "string" }
-          - { label: "Hero Untertitel", name: "hero_subtitle", widget: "text" }
-          - { label: "CTA Button Text", name: "cta_text", widget: "string" }
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Meta-Titel", name: "meta_title", widget: "string" }
+              - { label: "Meta-Beschreibung", name: "meta_description", widget: "text" }
+              - { label: "OG-Bild", name: "og_image", widget: "image", required: false }
+
+          - label: "Navigation"
+            name: "nav"
+            widget: "object"
+            fields:
+              - { label: "Kanzlei-Kürzel (z.B. HSOA)", name: "kanzlei_kuerzel", widget: "string" }
+              - { label: "Kanzlei-Untertitel", name: "kanzlei_untertitel", widget: "string" }
+              - { label: "CTA-Button Text", name: "nav_cta_text", widget: "string" }
+              - label: "Navigation Links"
+                name: "nav_links"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Ziel (Anker oder URL)", name: "href", widget: "string" }
+
+          - label: "Hero-Bereich"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow-Text", name: "hero_eyebrow", widget: "string" }
+              - { label: "Headline (HTML erlaubt)", name: "hero_headline", widget: "text" }
+              - { label: "Beschreibungstext", name: "hero_text", widget: "text" }
+              - { label: "CTA Button 1", name: "hero_cta_primary", widget: "string" }
+              - { label: "CTA Button 2", name: "hero_cta_secondary", widget: "string" }
+              - label: "Hero Stats (z.B. '4 Partner')"
+                name: "hero_stats"
+                widget: "list"
+                field: { label: "Stat", name: "stat", widget: "string" }
+              - { label: "Zitat im Hero-Kasten", name: "hero_zitat", widget: "text" }
+              - { label: "Titel des Kontakt-Kastens", name: "kontakt_card_titel", widget: "string" }
+
+          - label: "Kontaktdaten"
+            name: "kontakt_daten"
+            widget: "object"
+            fields:
+              - { label: "Telefon (Anzeige)", name: "telefon", widget: "string" }
+              - { label: "Telefon (Link, z.B. +4315326000)", name: "telefon_link", widget: "string" }
+              - { label: "E-Mail", name: "email", widget: "string" }
+              - { label: "Adresse (HTML)", name: "adresse_html", widget: "text" }
+
+          - label: "Sozietät-Sektion"
+            name: "sozietaet"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "sozietaet_eyebrow", widget: "string" }
+              - { label: "Headline", name: "sozietaet_headline", widget: "string" }
+              - { label: "Text (HTML erlaubt)", name: "sozietaet_text", widget: "markdown" }
+              - { label: "Bild", name: "sozietaet_bild", widget: "image", required: false }
+              - { label: "Bild Alt-Text", name: "sozietaet_bild_alt", widget: "string", required: false }
+              - { label: "CTA-Text", name: "sozietaet_cta", widget: "string" }
+              - label: "USP Items"
+                name: "usp_items"
+                widget: "list"
+                fields:
+                  - { label: "Titel", name: "label", widget: "string" }
+                  - { label: "Beschreibung", name: "desc", widget: "text" }
+
+          - label: "Kompetenz-Sektion"
+            name: "kompetenz"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "kompetenz_eyebrow", widget: "string" }
+              - { label: "Headline", name: "kompetenz_headline", widget: "string" }
+              - { label: "Subtext", name: "kompetenz_subtext", widget: "text" }
+              - label: "Rechtsgebiete"
+                name: "rechtsgebiete"
+                widget: "list"
+                fields:
+                  - { label: "Icon (Emoji)", name: "icon", widget: "string" }
+                  - { label: "Titel", name: "title", widget: "string" }
+                  - { label: "Untertitel (Englisch)", name: "subtitle", widget: "string" }
+                  - { label: "URL-Slug (z.B. immobilienrecht)", name: "slug", widget: "string" }
+                  - { label: "Kurzbeschreibung", name: "desc", widget: "text" }
+                  - label: "Tags"
+                    name: "tags"
+                    widget: "list"
+                    field: { label: "Tag", name: "tag", widget: "string" }
+
+          - label: "Partner-Sektion"
+            name: "partner_section"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "partner_eyebrow", widget: "string" }
+              - { label: "Headline", name: "partner_headline", widget: "string" }
+              - label: "Partner"
+                name: "partner"
+                widget: "list"
+                fields:
+                  - { label: "Initialen (z.B. TH)", name: "initials", widget: "string" }
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Foto", name: "foto", widget: "image", required: false }
+                  - { label: "Kurzbiografie", name: "bio", widget: "text" }
+                  - label: "Schwerpunkte"
+                    name: "focus"
+                    widget: "list"
+                    field: { label: "Schwerpunkt", name: "item", widget: "string" }
+
+          - label: "Karriere-Sektion"
+            name: "karriere_section"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "karriere_eyebrow", widget: "string" }
+              - { label: "Headline", name: "karriere_headline", widget: "string" }
+              - { label: "Text (HTML erlaubt)", name: "karriere_text", widget: "markdown" }
+              - { label: "Bild", name: "karriere_bild", widget: "image", required: false }
+              - { label: "Bild Alt-Text", name: "karriere_bild_alt", widget: "string", required: false }
+              - { label: "CTA-Text", name: "karriere_cta", widget: "string" }
+              - label: "Positionen"
+                name: "karriere_positionen"
+                widget: "list"
+                field: { label: "Position", name: "pos", widget: "string" }
+              - label: "Karriere-Schritte"
+                name: "karriere_schritte"
+                widget: "list"
+                fields:
+                  - { label: "Nummer (z.B. 01)", name: "nr", widget: "string" }
+                  - { label: "Phase", name: "phase", widget: "string" }
+                  - { label: "Beschreibung", name: "desc", widget: "text" }
+
+          - label: "Kontakt-Sektion"
+            name: "kontakt_section"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "kontakt_eyebrow", widget: "string" }
+              - { label: "Headline", name: "kontakt_headline", widget: "string" }
+              - { label: "Text", name: "kontakt_text", widget: "text" }
+              - { label: "Zitat", name: "kontakt_zitat", widget: "text", required: false }
+              - { label: "Zitat Autor", name: "kontakt_zitat_autor", widget: "string", required: false }
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Adresse (HTML)", name: "footer_adresse_html", widget: "text" }
+              - { label: "Firmenname für Copyright", name: "footer_firma", widget: "string" }
+
+  # ─── LEISTUNGSSEITEN ─────────────────────────────────────────────
+  - name: "leistungen"
+    label: "Leistungsseiten"
+    folder: "src/content/leistungen"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "Meta-Titel", name: "meta_title", widget: "string" }
+      - { label: "Meta-Beschreibung", name: "meta_description", widget: "text" }
+      - { label: "OG-Bild", name: "og_image", widget: "image", required: false }
+
+      - label: "Hero"
+        name: "hero"
+        widget: "object"
+        fields:
+          - { label: "Breadcrumb-Text (z.B. Immobilienrecht)", name: "hero_breadcrumb", widget: "string" }
+          - { label: "Icon (Emoji)", name: "hero_icon", widget: "string" }
+          - { label: "Eyebrow", name: "hero_eyebrow", widget: "string" }
+          - { label: "Headline (HTML erlaubt)", name: "hero_headline", widget: "text" }
+          - { label: "Beschreibungstext", name: "hero_text", widget: "text" }
+          - { label: "Hero-Bild", name: "hero_bild", widget: "image", required: false }
+          - { label: "Hero-Bild Alt-Text", name: "hero_bild_alt", widget: "string", required: false }
+          - label: "Trust-Items (z.B. 'Direkter Partnerkontakt')"
+            name: "hero_trust_items"
+            widget: "list"
+            field: { label: "Item", name: "item", widget: "string" }
+
+      - label: "Kontaktdaten"
+        name: "kontakt_daten"
+        widget: "object"
+        fields:
+          - { label: "Telefon (Anzeige)", name: "telefon", widget: "string" }
+          - { label: "Telefon (Link)", name: "telefon_link", widget: "string" }
+          - { label: "E-Mail", name: "email", widget: "string" }
+          - { label: "Adresse (einzeilig)", name: "adresse", widget: "string" }
+
+      - label: "Leistungen-Sektion"
+        name: "leistungen_section"
+        widget: "object"
+        fields:
+          - { label: "Headline", name: "leistungen_headline", widget: "string" }
+          - { label: "Subtext", name: "leistungen_subtext", widget: "text" }
+          - { label: "Intro-Bild (unter Headline)", name: "intro_bild", widget: "image", required: false }
+          - { label: "Intro-Bild Alt-Text", name: "intro_bild_alt", widget: "string", required: false }
+          - label: "Leistungen (Accordion)"
+            name: "leistungen"
+            widget: "list"
+            fields:
+              - { label: "Nummer (z.B. 01)", name: "nr", widget: "string" }
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "desc", widget: "text" }
+              - { label: "Bild", name: "bild", widget: "image", required: false }
+              - { label: "Bild Alt-Text", name: "bild_alt", widget: "string", required: false }
+              - label: "Detail-Punkte"
+                name: "details"
+                widget: "list"
+                field: { label: "Punkt", name: "punkt", widget: "string" }
+
+      - label: "Zielgruppen-Sektion"
+        name: "zielgruppen_section"
+        widget: "object"
+        fields:
+          - { label: "Headline", name: "zielgruppen_headline", widget: "string" }
+          - label: "Zielgruppen"
+            name: "zielgruppen"
+            widget: "list"
+            fields:
+              - { label: "Icon (Emoji)", name: "icon", widget: "string" }
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Herausforderung", name: "pain", widget: "text" }
+              - { label: "Unser Beitrag", name: "value", widget: "text" }
+              - { label: "Bild", name: "bild", widget: "image", required: false }
+              - { label: "Bild Alt-Text", name: "bild_alt", widget: "string", required: false }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                field: { label: "Tag", name: "tag", widget: "string" }
+
+      - label: "Prozess-Sektion"
+        name: "prozess_section"
+        widget: "object"
+        fields:
+          - { label: "Headline", name: "prozess_headline", widget: "string" }
+          - { label: "Subtext", name: "prozess_subtext", widget: "text" }
+          - label: "Schritte"
+            name: "prozess_schritte"
+            widget: "list"
+            fields:
+              - { label: "Schritt (z.B. 01)", name: "step", widget: "string" }
+              - { label: "Icon (Emoji)", name: "icon", widget: "string" }
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "desc", widget: "text" }
+
+      - label: "FAQ-Sektion"
+        name: "faq_section"
+        widget: "object"
+        fields:
+          - { label: "Headline", name: "faq_headline", widget: "string" }
+          - label: "FAQ-Einträge"
+            name: "faq"
+            widget: "list"
+            fields:
+              - { label: "Frage", name: "q", widget: "string" }
+              - { label: "Antwort", name: "a", widget: "text" }
+
+      - label: "Kontakt-Sektion"
+        name: "kontakt_section"
+        widget: "object"
+        fields:
+          - { label: "Headline", name: "kontakt_headline", widget: "string" }
+          - { label: "Text", name: "kontakt_text", widget: "text" }
+          - { label: "Zitat", name: "kontakt_zitat", widget: "text", required: false }
+          - { label: "Zitat Autor", name: "kontakt_zitat_autor", widget: "string", required: false }

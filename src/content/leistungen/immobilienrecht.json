@@ -1,0 +1,183 @@
+{
+  "meta_title": "Immobilienrecht Wien – HSOA Rechtsanwälte",
+  "meta_description": "HSOA – Spezialisierte Rechtsberatung im Immobilienrecht: Due Diligence, Transaktionen, Mietrecht, Baurecht. Boutique-Kanzlei Wien.",
+  "og_image": "",
+  "hero_breadcrumb": "Immobilienrecht",
+  "hero_icon": "🏛️",
+  "hero_eyebrow": "Real Estate Law · Wien",
+  "hero_headline": "Immobilienrecht —<br/><span style='color:#4a9fd4'>präzise. diskret.</span><br/>erfolgreich.",
+  "hero_text": "Von der Due Diligence über die Vertragsgestaltung bis zur grundbücherlichen Durchführung: HSOA begleitet Investoren, Projektentwickler und Unternehmen bei Immobilientransaktionen jeder Komplexität.",
+  "hero_bild": "",
+  "hero_bild_alt": "Immobilienrecht Wien",
+  "hero_trust_items": [
+    "Direkter Partnerkontakt",
+    "Erstgespräch kostenfrei",
+    "Österreichweit & grenzüberschreitend",
+    "Vollständige Diskretion"
+  ],
+  "telefon": "+43 1 532 60 00",
+  "telefon_link": "+4315326000",
+  "email": "office@hsoa.at",
+  "adresse": "Tuchlauben 11/18 · 1010 Wien",
+  "leistungen_headline": "Was wir für Sie leisten — von A bis Z.",
+  "leistungen_subtext": "Unser immobilienrechtliches Beratungsangebot deckt alle Phasen einer Transaktion ab.",
+  "intro_bild": "",
+  "intro_bild_alt": "HSOA Immobilienrecht Team",
+  "leistungen": [
+    {
+      "nr": "01",
+      "title": "Kauf & Verkauf von Liegenschaften",
+      "desc": "Vollständige rechtliche Abwicklung von Immobilientransaktionen – vom Letter of Intent über die Vertragsprüfung bis zur grundbücherlichen Durchführung.",
+      "bild": "",
+      "bild_alt": "Immobilientransaktion Beratung",
+      "details": [
+        "Kaufvertragsgestaltung & -prüfung",
+        "Verhandlungsführung",
+        "Treuhandabwicklung",
+        "Grundbuchseintragung",
+        "Übergabe & Nachbetreuung"
+      ]
+    },
+    {
+      "nr": "02",
+      "title": "Immobilien-Due Diligence",
+      "desc": "Systematische rechtliche Prüfung von Liegenschaften vor dem Erwerb. Wir analysieren Risiken in Grundbuch, Baurecht, Mietrecht und öffentlichem Recht.",
+      "bild": "",
+      "bild_alt": "Due Diligence Prozess",
+      "details": [
+        "Grundbuch- & Lastenprüfung",
+        "Mietvertragsanalyse",
+        "Baurechts- & Widmungsprüfung",
+        "Altlastenrecherche",
+        "Risikoberichte & Handlungsempfehlungen"
+      ]
+    },
+    {
+      "nr": "03",
+      "title": "Mietrecht",
+      "desc": "Beratung für Vermieter und Mieter in allen mietrechtlichen Angelegenheiten – von der Vertragsgestaltung bis zur Durchsetzung von Ansprüchen.",
+      "bild": "",
+      "bild_alt": "Mietrecht Beratung",
+      "details": [
+        "Mietvertragsgestaltung",
+        "Betriebskosten & Mietzinserhöhungen",
+        "Schlichtungsstellenverfahren",
+        "Räumungsklagen",
+        "Gewerbemietrecht (MRG & ABGB)"
+      ]
+    },
+    {
+      "nr": "04",
+      "title": "Projektentwicklung & Baurecht",
+      "desc": "Rechtliche Begleitung bei der Entwicklung von Immobilienprojekten – Widmungsverfahren, Baugenehmigungen und Bauträgerrecht.",
+      "bild": "",
+      "bild_alt": "Projektentwicklung Beratung",
+      "details": [
+        "Widmungs- & Flächenwidmungsverfahren",
+        "Baubewilligungen",
+        "Bauträgervertrag (BTVG)",
+        "SPV-Gründung & -strukturierung",
+        "Baurechtliche Streitigkeiten"
+      ]
+    },
+    {
+      "nr": "05",
+      "title": "Wohnungseigentumsrecht",
+      "desc": "Expertise in der Begründung und Verwaltung von Wohnungseigentum – Parifizierung, Eigentümerversammlungen und Streitigkeiten.",
+      "bild": "",
+      "bild_alt": "Wohnungseigentumsrecht",
+      "details": [
+        "Parifizierung & Nutzwertfestsetzung",
+        "Wohnungseigentumsvertrag",
+        "Eigentümerversammlungen",
+        "Verwaltungsverträge",
+        "WEG-Streitigkeiten"
+      ]
+    },
+    {
+      "nr": "06",
+      "title": "Grenzüberschreitende Transaktionen",
+      "desc": "Strukturierung von Immobilientransaktionen mit internationalem Bezug. Wir koordinieren die Zusammenarbeit mit Partnerkanzleien im Ausland.",
+      "bild": "",
+      "bild_alt": "Internationale Transaktionen",
+      "details": [
+        "Grenzüberschreitende Strukturberatung",
+        "Koordination int. Rechtsberater",
+        "Holding- & SPV-Strukturen",
+        "Steuerliche Strukturierungshinweise",
+        "Devisenrecht & Geldwäscheprävention"
+      ]
+    }
+  ],
+  "zielgruppen_headline": "Unsere Mandanten im Immobilienbereich.",
+  "zielgruppen": [
+    {
+      "icon": "🏗️",
+      "title": "Projektentwickler & Bauträger",
+      "pain": "Komplexe Genehmigungsverfahren, BTVG-Compliance, Vertragsgestaltung unter Zeitdruck.",
+      "value": "Wir begleiten Sie von der Grundstückssicherung bis zur Übergabe mit tiefer Expertise.",
+      "bild": "",
+      "bild_alt": "Projektentwickler",
+      "tags": ["Widmung", "Baugenehmigung", "BTVG", "Käuferverträge"]
+    },
+    {
+      "icon": "📈",
+      "title": "Immobilieninvestoren",
+      "pain": "Rechtssichere Strukturierung von Portfoliokäufen, Due Diligence unter Zeitdruck.",
+      "value": "Wir liefern präzise Due-Diligence-Berichte und entwickeln rechtssichere Transaktionsstrukturen.",
+      "bild": "",
+      "bild_alt": "Immobilieninvestoren",
+      "tags": ["Due Diligence", "SPV-Strukturen", "Exit-Planung", "Portfolioakquisition"]
+    },
+    {
+      "icon": "🏢",
+      "title": "Unternehmen & Corporates",
+      "pain": "Kauf oder Anmietung von Betriebsliegenschaften, Sale & Lease-Back-Transaktionen.",
+      "value": "Wir sichern Ihre betriebliche Immobilienstrategie rechtlich ab – schnell und verlässlich.",
+      "bild": "",
+      "bild_alt": "Unternehmen Immobilien",
+      "tags": ["Gewerbeimmobilien", "Mietrecht", "Sale & Lease-Back", "Standortexpansion"]
+    },
+    {
+      "icon": "🔑",
+      "title": "Family Offices & Private Vermögen",
+      "pain": "Diskrete Abwicklung von Premiumimmobilien, Generationenübergabe.",
+      "value": "Persönliche Partnerbetreuung, absolute Diskretion und maßgeschneiderte Strukturierungen.",
+      "bild": "",
+      "bild_alt": "Private Vermögen Immobilien",
+      "tags": ["Premiumimmobilien", "Generationenübergabe", "Stiftungsrecht", "Diskretion"]
+    }
+  ],
+  "prozess_headline": "Wie eine Zusammenarbeit mit HSOA abläuft.",
+  "prozess_subtext": "Klare Struktur, transparente Kommunikation – von der ersten Kontaktaufnahme bis zum Abschluss.",
+  "prozess_schritte": [
+    { "step": "01", "icon": "💬", "title": "Erstgespräch & Mandat", "desc": "Kostenfreies Erstgespräch zur Klärung Ihrer Situation." },
+    { "step": "02", "icon": "🔍", "title": "Due Diligence & Analyse", "desc": "Systematische rechtliche Prüfung aller relevanten Dokumente." },
+    { "step": "03", "icon": "✍️", "title": "Vertragsgestaltung", "desc": "Erstellung oder Prüfung aller Vertragswerke." },
+    { "step": "04", "icon": "📋", "title": "Notariat & Grundbuch", "desc": "Koordination der Notariatsbeauftragung und Treuhandabwicklung." },
+    { "step": "05", "icon": "🤝", "title": "Übergabe & Nachbetreuung", "desc": "Professionelle Begleitung der Übergabe und Nachbetreuung." }
+  ],
+  "faq_headline": "Ihre Fragen — unsere Antworten.",
+  "faq": [
+    {
+      "q": "Was kostet eine immobilienrechtliche Erstberatung bei HSOA?",
+      "a": "Das erste Orientierungsgespräch führen wir kostenfrei. Danach richten sich unsere Honorare nach dem Rechtsanwaltstarifgesetz oder werden individuell nach Aufwand vereinbart."
+    },
+    {
+      "q": "Wie lange dauert eine Due Diligence?",
+      "a": "Eine Standard-Due-Diligence dauert je nach Komplexität zwischen 5 und 15 Werktagen. Bei zeitkritischen Transaktionen bieten wir beschleunigte Prüfungen an."
+    },
+    {
+      "q": "Begleiten Sie auch Transaktionen außerhalb Wiens?",
+      "a": "Ja. Wir beraten bei Transaktionen in ganz Österreich und koordinieren bei grenzüberschreitenden Projekten die Zusammenarbeit mit internationalen Partnerkanzleien."
+    },
+    {
+      "q": "Übernehmen Sie auch die Vertretung vor Gericht?",
+      "a": "Ja. Neben der transaktionalen Beratung vertreten wir Mandanten in mietrechtlichen Streitigkeiten und Immobilienprozessen vor österreichischen Gerichten."
+    }
+  ],
+  "kontakt_headline": "Sprechen wir über Ihr Vorhaben.",
+  "kontakt_text": "Das erste Gespräch ist unverbindlich und kostenfrei — wir melden uns in der Regel innerhalb von 24 Stunden.",
+  "kontakt_zitat": "Jedes Mandat beginnt mit einem ehrlichen Gespräch.",
+  "kontakt_zitat_autor": "Dr. Patrick Swoboda, LL.M. · Partner für Immobilienrecht"
+}
