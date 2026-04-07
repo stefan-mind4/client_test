@@ -1,5 +1,147 @@
 {
-  "hero_subtitle": "test",
-  "hero_title": "Landing Page",
-  "cta_text": "LETS GO"
+  "meta_title": "HSOA Rechtsanwälte – Wirtschaftsrecht Wien",
+  "meta_description": "Huber Swoboda Oswald Aixberger Rechtsanwälte GmbH – Ihre Boutique-Kanzlei für Wirtschafts- und Unternehmensrecht in Wien.",
+  "og_image": "",
+  "kanzlei_kuerzel": "HSOA",
+  "kanzlei_untertitel": "Rechtsanwälte",
+  "nav_cta_text": "Mandat anfragen",
+  "nav_links": [
+    { "label": "Sozietät", "href": "#sozietaet" },
+    { "label": "Kompetenz", "href": "#kompetenz" },
+    { "label": "Partner", "href": "#partner" },
+    { "label": "Karriere", "href": "#karriere" },
+    { "label": "Kontakt", "href": "#kontakt" }
+  ],
+  "hero_eyebrow": "Wirtschaftsrecht · Wien",
+  "hero_headline": "Individuelle<br/><span style='color:#4a9fd4'>Rechtslösungen</span><br/>mit Handschlagqualität.",
+  "hero_text": "Huber Swoboda Oswald Aixberger Rechtsanwälte GmbH – Ihre Boutique-Kanzlei für Wirtschafts- und Unternehmensrecht im Herzen Wiens. Höchste Beratungsqualität und persönliches Engagement seit Gründung.",
+  "hero_cta_primary": "Beratungsgespräch vereinbaren",
+  "hero_cta_secondary": "Unsere Kompetenzen",
+  "hero_stats": ["4 Partner", "6 Rechtsgebiete", "1010 Wien"],
+  "hero_zitat": "Wir entwickeln für unsere Klienten individuelle und kreative Lösungen mit Hand und Fuß.",
+  "kontakt_card_titel": "Direkter Kontakt",
+  "telefon": "+43 1 532 60 00",
+  "telefon_link": "+4315326000",
+  "email": "office@hsoa.at",
+  "adresse_html": "Tuchlauben 11/18<br/>1010 Wien, Österreich",
+  "sozietaet_eyebrow": "Über uns",
+  "sozietaet_headline": "Boutique-Kanzlei mit dem Anspruch, den Unterschied zu machen.",
+  "sozietaet_text": "<p class='mb-4'>Huber Swoboda Oswald Aixberger Rechtsanwälte GmbH steht für eine Philosophie, die in der österreichischen Anwaltschaft ihresgleichen sucht: Jeder Mandant erhält individuelle Beratung auf höchstem Niveau.</p><p>Unsere Partner verbinden jahrzehntelange Erfahrung mit internationalem Expertise und dem persönlichen Engagement, das große Kanzleien oft nicht mehr bieten können.</p>",
+  "sozietaet_bild": "",
+  "sozietaet_bild_alt": "HSOA Kanzleiräume Wien",
+  "sozietaet_cta": "Gespräch vereinbaren",
+  "usp_items": [
+    { "label": "Individuelle Lösungen", "desc": "Kein Mandant gleicht dem anderen. Wir entwickeln maßgeschneiderte Strategien statt Standardlösungen." },
+    { "label": "Persönliches Engagement", "desc": "Höchste Beratungsqualität und direkter Partnerkontakt bei jeder Angelegenheit." },
+    { "label": "Internationale Erfahrung", "desc": "Grenzüberschreitende Expertise für nationale und internationale Mandate." },
+    { "label": "Verlässlichkeit", "desc": "Diskretion und Handschlagqualität als selbstverständliche Grundlage unserer Zusammenarbeit." }
+  ],
+  "kompetenz_eyebrow": "Rechtsgebiete",
+  "kompetenz_headline": "Unsere Kompetenz — konzentriert auf das Wesentliche.",
+  "kompetenz_subtext": "Jeder unserer Partner ist in seinem Gebiet ausgewiesener Experte.",
+  "rechtsgebiete": [
+    {
+      "icon": "🏛️",
+      "title": "Immobilienrecht",
+      "subtitle": "Real Estate",
+      "slug": "immobilienrecht",
+      "desc": "Umfassende rechtliche Begleitung bei Immobilientransaktionen, Projektentwicklungen, Mietrecht sowie Due Diligence.",
+      "tags": ["Kauf & Verkauf", "Mietrecht", "Due Diligence", "Baurecht"]
+    },
+    {
+      "icon": "🤝",
+      "title": "M & A",
+      "subtitle": "Mergers & Acquisitions",
+      "slug": "mergers-acquisitions",
+      "desc": "Strategische Beratung bei Unternehmensübernahmen, Fusionen und Joint Ventures.",
+      "tags": ["Unternehmenskauf", "Due Diligence", "Vertragsgestaltung", "Closing"]
+    },
+    {
+      "icon": "⚕️",
+      "title": "Apothekenrecht",
+      "subtitle": "Pharmacy Law",
+      "slug": "apothekenrecht",
+      "desc": "Spezialisierte Rechtsberatung für Apotheken und die Pharmaindustrie.",
+      "tags": ["Konzessionsrecht", "Apothekenübernahme", "Regulatorik", "Behördenverfahren"]
+    },
+    {
+      "icon": "🔒",
+      "title": "Gewerblicher Rechtsschutz",
+      "subtitle": "Intellectual Property",
+      "slug": "gewerblicher-rechtsschutz",
+      "desc": "Schutz Ihres geistigen Eigentums: Marken, Patente, Urheberrecht und Wettbewerbsrecht.",
+      "tags": ["Markenrecht", "Patentrecht", "Urheberrecht", "Wettbewerbsrecht"]
+    },
+    {
+      "icon": "🎲",
+      "title": "Glücksspielrecht",
+      "subtitle": "Gaming Law",
+      "slug": "gluecksspielrecht",
+      "desc": "Beratung im hochregulierten Bereich des Glücksspielrechts.",
+      "tags": ["Konzessionen", "Compliance", "Behördenverfahren", "Online Gaming"]
+    },
+    {
+      "icon": "⚖️",
+      "title": "Litigation",
+      "subtitle": "Prozessführung",
+      "slug": "litigation",
+      "desc": "Entschlossene Interessensvertretung vor österreichischen Gerichten und Schiedsgerichten.",
+      "tags": ["Zivilprozess", "Schiedsverfahren", "Einstweilige Verfügungen", "Mediation"]
+    }
+  ],
+  "partner_eyebrow": "Das Team",
+  "partner_headline": "Vier Partner. Vier Experten. Eine gemeinsame Haltung.",
+  "partner": [
+    {
+      "initials": "TH",
+      "name": "Dr. Thomas Huber",
+      "foto": "",
+      "bio": "Langjährige Erfahrung in der Beratung nationaler und internationaler Unternehmen bei Transaktionen.",
+      "focus": ["M & A", "Gesellschaftsrecht", "Unternehmensrecht"]
+    },
+    {
+      "initials": "PS",
+      "name": "Dr. Patrick Swoboda, LL.M.",
+      "foto": "",
+      "bio": "Spezialist für komplexe Immobilientransaktionen und die rechtliche Strukturierung von Immobilienprojekten.",
+      "focus": ["Immobilienrecht", "Liegenschaftstransaktionen", "Baurecht"]
+    },
+    {
+      "initials": "BO",
+      "name": "Bernd Oswald",
+      "foto": "",
+      "bio": "Führender Experte im österreichischen Glücksspielrecht mit Expertise in Genehmigungsverfahren.",
+      "focus": ["Glücksspielrecht", "Gewerbliches Recht", "Regulatorik"]
+    },
+    {
+      "initials": "MA",
+      "name": "Dr. Martin Aixberger, LL.M.",
+      "foto": "",
+      "bio": "Ausgewiesener Spezialist im Apothekenrecht und gewerblichen Rechtsschutz.",
+      "focus": ["Apothekenrecht", "Gewerblicher Rechtsschutz", "Litigation"]
+    }
+  ],
+  "karriere_eyebrow": "Karriere",
+  "karriere_headline": "Werden Sie Teil einer Kanzlei, die anders denkt.",
+  "karriere_text": "<p class='mb-4'>Wir suchen talentierte Rechtsanwälte, Substituten und Konzipienten, die unsere Überzeugung teilen.</p><p>Bei HSOA arbeiten Sie eng mit erfahrenen Partnern zusammen und entwickeln tiefgehende Expertise.</p>",
+  "karriere_bild": "",
+  "karriere_bild_alt": "Karriere bei HSOA",
+  "karriere_positionen": [
+    "Substituten (Associates)",
+    "Konzipienten (Trainees)",
+    "Rechtsanwälte mit Spezialisierung"
+  ],
+  "karriere_cta": "Initiativbewerbung senden",
+  "karriere_schritte": [
+    { "nr": "01", "phase": "Einstieg", "desc": "Direkte Zusammenarbeit mit Partnern von Beginn an." },
+    { "nr": "02", "phase": "Wachstum", "desc": "Eigene Mandate und tiefe Spezialisierung." },
+    { "nr": "03", "phase": "Exzellenz", "desc": "Aufbau eines eigenen Netzwerks und nachhaltiger Karriere." }
+  ],
+  "kontakt_eyebrow": "Kontakt",
+  "kontakt_headline": "Wir freuen uns auf Ihre Anfrage.",
+  "kontakt_text": "Schildern Sie uns Ihr Anliegen — wir melden uns rasch und diskret.",
+  "kontakt_zitat": "Höchste Beratungsqualität und persönliches Engagement sind tägliche Bestandteile unserer Arbeit.",
+  "kontakt_zitat_autor": "HSOA Rechtsanwälte",
+  "footer_adresse_html": "Huber Swoboda Oswald Aixberger Rechtsanwälte GmbH<br/>Tuchlauben 11/18 · 1010 Wien · Österreich",
+  "footer_firma": "Huber Swoboda Oswald Aixberger Rechtsanwälte GmbH"
 }
